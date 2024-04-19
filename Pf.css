@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+.navbar{
+    display: flex;
+    font-family: Montserrat;
+    justify-content: center;
+    background-color: black;
+    padding-top: 5%;
+}
+.navbar li{
+    display: inline;
+    margin-right: 3rem;
+    padding: 0;
+    align-items: center;
+   cursor: pointer;
+    
+}
+
+.Home{
+color: #fff;
+
+}
+
+.insight-status{
+    color: rgba(255, 255, 0, 0.782);
+}
+body{
+    background-image: url(Wallpaper.jpg);
+    size: 30%
+}
+.content{
+    font-family: Montserrat;
+    color: white;
+    margin-top: 10rem;
+    font-size: 1.5rem;
+}
+.content p{
+    font-size: 1rem;
+}
+.icon{
+  width: 45%;
+  height: auto;
+  position: absolute;
+  top: 10rem;
+  left: 23rem  
+
+}
+.bottom-bar{
+    list-style-type: none;
+    color: white;
+    position: absolute;
+    bottom: 5%
+    
+}
+.bottom-bar li{
+display: inline;
+padding: 2rem;
+background-color: rgb(47, 47, 47);
+font-family: Montserrat;
+font-size: 0.8rem;
+}
