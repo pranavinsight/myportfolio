@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+.navbar{
+    display: flex;
+    font-family: Montserrat;
+    justify-content: center;
+    background-color: black;
+    padding-top: 5%;
+}
+.navbar li{
+    display: inline;
+    margin-right: 3rem;
+    padding: 0;
+    align-items: center;
+   cursor: pointer;
+    
+}
+
+.Home{
+color: #fff;
+
+}
+
+.insight-status{
+    color: rgba(255, 255, 0, 0.782);
+}
+body{
+    background-image: url(Images/Wallpaper.jpg);
+    size: 30%
+}
+.content{
+    font-family: Montserrat;
+    color: white;
+    margin-top: 10rem;
+    font-size: 1.5rem;
+    word-break: break-all;
+}
+.content p{
+    font-size: 1rem;
+  
+}
+.icon{
+  width: 45%;
+  height: auto;
+  position: absolute;
+  top: 10rem;
+  left: 23rem  
+
+}
+.bottom-bar{
+    list-style-type: none;
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    word-break: break-all;
+    
+}
+.bottom-bar li{
+display: inline;
+padding: 2rem;
+background-color: rgb(47, 47, 47);
+font-family: Montserrat;
+font-size: 0.8rem;
+position: relative;
+top: 23rem;
+word-break: break-all;
+}
+.content2{
+    font-family: Montserrat;
+    color: #fff;
+    position: relative;
+    top: 15rem;
+    word-break: break-all;
+}
+.button-64 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .button-64:active,
+  .button-64:hover {
+    outline: 0;
+  }
+  
+  .button-64 span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  .button-64:hover span {
+    background: none;
+  }
+  
+  @media (min-width: 768px) {
+    .button-64 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+  
